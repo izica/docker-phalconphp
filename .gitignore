@@ -1,0 +1,8 @@
+.idea
+vendor
+app/db.php
+phinx.yml
+public/upload
+*.lock
+*.log
+docker/mysql/data

@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "phinx": "php vendor/robmorgan/phinx/bin/phinx",
+        "phinx-migrate": "php vendor/robmorgan/phinx/bin/phinx migrate",
+        "phinx-rollback": "php vendor/robmorgan/phinx/bin/phinx rollback",
+        "phinx-fresh": "php vendor/robmorgan/phinx/bin/phinx rollback -e development -t 0"
+    },
+    "require": {
+        "robmorgan/phinx": "^0.8.1"
+    }
+}
